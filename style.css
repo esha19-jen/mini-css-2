@@ -1,0 +1,24 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.sidebar{
+    
+    color: red
+}
+.main-content{
+    color: green
+};
+.music.player{
+    color: rgb(198, 249, 31)
+}
