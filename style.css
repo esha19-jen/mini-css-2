@@ -9,16 +9,33 @@
 
 .main{
     display: flex;
-    flex-direction: column;
     height: 100vh;
 }
 .sidebar{
     
-    color: red
+    background-color:black;
+    width: 320px;
+    border-radius: 1rem;
 }
 .main-content{
-    color: green
-};
-.music.player{
-    color: rgb(198, 249, 31)
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.music-player{
+    background-color:black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav{
+    background-color: #121212;
+     border-radius: 1rem;
 }
