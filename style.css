@@ -38,4 +38,20 @@ a{
 .nav{
     background-color: #121212;
      border-radius: 1rem;
+     display: flex;
+        flex-direction: column;
+}
+.nav-option{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+.nav-option i{
+    font-size: 20px;
+}
+.nav-option a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
 }
