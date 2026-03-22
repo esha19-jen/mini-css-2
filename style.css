@@ -10,6 +10,7 @@
 .main{
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 .sidebar{
     
@@ -62,20 +63,29 @@ a{
     font-size: 1rem;
 }
 .library{
-    background-color: #121212;
     border-radius: 1rem;
-    margin: 0.5rem;
-    padding: 1rem;
     height: 100%;
     margin-top: 0.5rem;
+    padding: 0.5rem 0.7rem;
 }
+
 .option{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    opacity: 0.7;
+    align-items: center;
 }
 .lib-option img {
-  width: 18px;   /* adjust karo (16–22 best) */
-  height: auto;
+  width: 1.25rem;   /* adjust karo (16–22 best) */
+  height: 1.25rem;
+}
+.icons{
+    display: flex;
+    font-size: 1.25rem;
+}
+.icons i{
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.icons i:hover{
+    opacity: 1;
 }
