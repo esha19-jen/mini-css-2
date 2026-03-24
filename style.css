@@ -162,6 +162,15 @@ a{
   transition: all 0.3s ease;
 
 }
+.dark-badge {
+  background-color: black;
+  color: #fff;
+} 
+.dark-badge:hover {
+  background-color: #fff;
+  color: black;
+  transform: scale(1.05);
+} 
 .badge:hover {
   background-color: black ;
   color: #fff ;
@@ -177,3 +186,19 @@ a{
   gap: 10px;
   justify-content: space-between;
 }
+.sticky-nav-icons {
+  margin-left: 0.75rem;
+}
+.sticky-nav-options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .nav-item{
+   margin-right: 1rem;
+  }
+  @media (max-width: 1000px) {
+    .hide{
+        display: none;
+    }
+    
