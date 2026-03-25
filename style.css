@@ -201,4 +201,14 @@ a{
     .hide{
         display: none;
     }
+  }
+  .card{
+    background-color: #232323;
+  }
+  .card-container{
+    display: flex;
     
+  }
+  .card-img{
+    width: 100%;
+  }
